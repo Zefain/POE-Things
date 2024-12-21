@@ -191,7 +191,7 @@ BaseType "Wisdom" "Shard"
 # Unknown currency
 Show
 Class "Currency"
-SetTextColor 255 207 132
+SetTextColor 184 69 196
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
 PlayAlertSound 2 300
