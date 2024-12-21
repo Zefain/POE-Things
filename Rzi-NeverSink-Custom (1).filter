@@ -180,7 +180,7 @@ MinimapIcon 2 Grey Circle
 
 Show
 Class "Currency"
-BaseType "Wisdom"
+BaseType "Wisdom" "Shard"
 
 # Unknown currency
 Show
@@ -253,7 +253,7 @@ SetBorderColor 200 200 200
 SetFontSize 35
 
 Show
-Quality > 1
+Quality > 0
 Rarity Normal
 SetBorderColor 200 200 200
 SetFontSize 40
@@ -266,7 +266,7 @@ SetBorderColor 0 0 200
 SetFontSize 35
 
 Show
-Quality > 1
+Quality > 0
 Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 40
