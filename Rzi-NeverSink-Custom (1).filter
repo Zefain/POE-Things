@@ -41,8 +41,8 @@ Show
 Class "Currency"
 BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
 SetFontSize 45
-SetTextColor 184 69 196 255
-SetBorderColor 184 69 196 255
+SetTextColor 230 38 221 255
+SetBorderColor 230 38 221 255
 SetBackgroundColor 255 255 255 255
 PlayAlertSound 6 300
 PlayEffect Red
@@ -140,7 +140,7 @@ Class "Currency"
 BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance" "Chance Shard"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
-SetBackgroundColor 184 69 196
+SetBackgroundColor 230 38 221
 PlayAlertSound 1 300
 PlayEffect White
 MinimapIcon 1 White Circle
@@ -150,8 +150,8 @@ SetFontSize 40
 Show
 Class "Currency"
 BaseType "Vaal Orb" "Greater Jeweller's Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Exotic" "Exalted Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" 
-SetTextColor 0 0 0
-SetBorderColor 0 0 0
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
 SetBackgroundColor 150 44 168
 PlayAlertSound 2 300
 PlayEffect White
@@ -161,8 +161,8 @@ SetFontSize 40
 Show
 Class "Currency"
 BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
-SetTextColor 0 0 0
-SetBorderColor 0 0 0
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
 SetBackgroundColor 150 44 168
 PlayAlertSound 2 300
 PlayEffect White
