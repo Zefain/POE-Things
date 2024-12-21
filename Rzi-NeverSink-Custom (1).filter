@@ -12,53 +12,13 @@
  # BaseEvasion
  # BaseEnergyShield
  # DropLevel
+
 # Armours
-#Hybie
-Show
-Rarity Normal
-BaseType "Glorious Plate" "Expert Iron Cuirass" "Grand Mitts" "Expert Moulded Mitts" "Totemic Greaves" "Expert Stone Greaves" "Guardian Greathelm" "Expert Elite Greathelm" "Blacksteel Tower Shield" "Expert Stone Tower Shield"
-SetBorderColor 0 0 0
-SetFontSize 35
-SetTextColor 0 0 0
-SetBackgroundColor 0 255 50
-
-# Zefain
-Show
-Rarity Normal
-BaseType  "Expert Wayfarer Jacket" "Expert Hunting Shoes" "Expert Spiral Wraps" "Expert Tribal Mask"
-SetBorderColor 0 0 0
-SetFontSize 35
-SetTextColor 0 0 0
-SetBackgroundColor 0 255 50
-
-#Pure ES - Kondor
-Show
-Rarity Normal
-Class "Body" "Helmet" "Boots" "Gloves"
-BaseArmour == 0
-BaseEnergyShield > 0
-BaseEvasion == 0
-SetBorderColor 0 0 0
-SetFontSize 35
-SetTextColor 0 0 0
-SetBackgroundColor 0 255 50
-
-#Evasion Armour - Ava & Rzi
-Show
-Rarity Normal
-Class "Body" "Helmet" "Boots" "Gloves" 
-BaseArmour > 0
-BaseEnergyShield == 0
-BaseEvasion > 0
-SetBorderColor 0 0 0
-SetFontSize 35
-SetTextColor 0 0 0
-SetBackgroundColor 0 255 50
 
 # Weapons - All
 Show
 Rarity Normal
-BaseType "Rattling Sceptre" "Attuned Wand" "Siphoning Wand" "Expert Slicing Quarterstaff" "Expert Crackling Quarterstaff" "Bombard Crossbow" "Advanced Dualstring Bow"
+BaseType "Rattling Sceptre" "Attuned Wand" "Siphoning Wand" "Expert Slicing Quarterstaff" "Expert Crackling Quarterstaff" "Expert Bombard Crossbow" "Expert Dualstring Bow"
 SetFontSize 35
 SetTextColor 0 0 0
 SetBackgroundColor 0 255 50
@@ -172,7 +132,7 @@ PlayEffect Cyan Temp
 # Currency Tier A: Gemcutter, Annullment
 Show
 Class "Currency"
-BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
+BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance" "Chance Shard"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 240 90 35
@@ -293,10 +253,10 @@ SetBorderColor 200 200 200
 SetFontSize 35
 
 Show
-Quality > 10
+Quality > 1
 Rarity Normal
 SetBorderColor 200 200 200
-SetFontSize 35
+SetFontSize 40
 
 # Not working!
 Show
@@ -306,10 +266,10 @@ SetBorderColor 0 0 200
 SetFontSize 35
 
 Show
-Quality > 10
+Quality > 1
 Rarity Magic
 SetBorderColor 0 0 200
-SetFontSize 35
+SetFontSize 40
 
 
 #--------------------------
