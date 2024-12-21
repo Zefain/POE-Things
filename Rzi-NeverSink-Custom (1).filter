@@ -20,7 +20,7 @@ Show
 Rarity Normal
 BaseType "Rattling Sceptre" "Attuned Wand" "Siphoning Wand" "Expert Slicing Quarterstaff" "Expert Crackling Quarterstaff" "Expert Bombard Crossbow" "Expert Dualstring Bow"
 SetFontSize 35
-SetTextColor 0 0 0
+SetTextColor 255 255 255
 SetBackgroundColor 101 31 143
 
 #--------------------------
@@ -179,9 +179,9 @@ MinimapIcon 2 Grey Circle
 Show
 Class "Currency"
 BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
-SetTextColor 0 0 0
-SetBorderColor 0 0 0
-SetBackgroundColor 184 69 196
+SetTextColor 255 255 255 255
+SetBorderColor 130 15 255 255
+SetBackgroundColor 65 20 80 206
 MinimapIcon 2 Grey Circle
 
 Show
@@ -212,8 +212,9 @@ SetFontSize 40
 Show
 BaseType "Waystone"
 Rarity <= Rare
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
+SetTextColor 0 0 0
+SetBorderColor 0 0 0
+SetBackgroundColor 255 255 255
 PlayAlertSound 4 300
 PlayEffect White
 MinimapIcon 1 White Square
