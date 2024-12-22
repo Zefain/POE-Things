@@ -16,7 +16,7 @@
 # Armours
 Show
 Rarity Normal
-BaseType "Expert"
+BaseType "Expert Feathered Tiara" "Expert Chain Tiara" "Expert Keth Raiment" "Expert Hexer's Robe" "Expert Jewwelled Gloves" "Expert Intricate Gloves" "Expert Feathered Sandals" "Expert Silk Slippers"
 SetFontSize 35
 SetTextColor 255 255 255 255
 SetBorderColor 0 0 0 255
